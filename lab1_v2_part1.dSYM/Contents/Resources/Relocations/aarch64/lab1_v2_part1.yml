@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hajorda/Developer/GithubRep/AptalC/lab1_v2_part1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C44, symSize: 0x9C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C44, symSize: 0x9C }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _readInput, symObjAddr: 0x9C, symBinAddr: 0x100003CE0, symSize: 0x104 }
+  - { offsetInCU: 0xC5, offset: 0xC5, size: 0x8, addend: 0x0, symName: _printNumbers, symObjAddr: 0x1A0, symBinAddr: 0x100003DE4, symSize: 0x84 }
+  - { offsetInCU: 0x113, offset: 0x113, size: 0x8, addend: 0x0, symName: _circularShiftFromRightToLeft, symObjAddr: 0x224, symBinAddr: 0x100003E68, symSize: 0xA4 }
+...
